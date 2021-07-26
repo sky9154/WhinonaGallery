@@ -2,7 +2,7 @@
   const portfolios = [
     {
       title: '生命水',
-      image: './images/portfolio/P_01_生命水_20210531.jpg',
+      image: './images/portfolio/P_01_生命水_20210531.webp',
       time:'2021/05/31',
       introduce: 
         '生命的露珠是可貴也是寶藏。<br>\
@@ -12,7 +12,7 @@
     },
     {
         title: '聽，看看',
-        image: './images/portfolio/P_02_聽，看看_20210518.jpg',
+        image: './images/portfolio/P_02_聽，看看_20210518.webp',
         time:'2021/05/18',
         introduce: 
             '海風起了頭，<br>\
@@ -23,7 +23,7 @@
       },
       {
         title: '有什麼喜歡的嗎？',
-        image: './images/portfolio/P_03_有什麼喜歡的嗎_20210413.jpg',
+        image: './images/portfolio/P_03_有什麼喜歡的嗎_20210413.webp',
         time:'2021/04/13',
         introduce: 
             '花好喜歡大樹，<br>\
@@ -37,7 +37,7 @@
       },
       {
         title: 'Where your hear settles ?',
-        image: './images/portfolio/P_04_Where_your_hear_settles_20210117.jpg',
+        image: './images/portfolio/P_04_Where_your_hear_settles_20210117.webp',
         time:'2021/01/17',
         introduce: 
             '赤裸裸的跑進旋渦之中，那是我要定的心！<br>\
@@ -51,22 +51,22 @@
   const blogPosts = [
     {
       name: '住在杜王町東北部<br>的別墅區一帶',
-      image: './images/about/家.png',
+      image: './images/about/家.webp',
       color:'white-text'
     },
     {
       name: '在龜友連鎖店服務<br>每天都加班到晚上8點',
-      image:'./images/about/工作.jpg',
+      image:'./images/about/工作.webp',
       color:'white-text'
     },
     {
       name: '晚上11點睡<br>每天要睡足8個小時',
-      image: './images/about/睡覺.png',
+      image: './images/about/睡覺.webp',
       color:'black-text'
     },
     {
       name: '<br>醫生都說我很正常',
-      image: './images/about/檢查.png',
+      image: './images/about/檢查.webp',
       color:'black-text'
     }
   ]
