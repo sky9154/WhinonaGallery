@@ -1,36 +1,34 @@
-// Wrap every letter in a span
-var textWrapper = document.querySelector('.title .letters');
-textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-
-anime.timeline({loop: false})
-.add({
-    targets: '.title .line',
-    scaleX: [0,1],
-    opacity: [0.5,1],
-    easing: "easeInOutExpo",
-    duration: 900
-}).add({
-    targets: '.title .letter',
-    opacity: [0,1],
-    translateX: [40,0],
-    translateZ: 0,
-    scaleX: [0.3, 1],
-    easing: "easeOutExpo",
-    duration: 800,
-    offset: '-=600',
-    delay: (el, i) => 150 + 25 * i
-}).add({
-    targets: '.title',
-    opacity: 1,
-    duration: 1000,
-    easing: "easeOutExpo",
-    delay: 1000
-});
-$(document).ready(function () {
-    // Init Sidenav
-    $('.sidenav').sidenav({
-        edge: 'right',
-        draggable: true,
-        preventScrolling: false
+//draw
+function draw(){
+    const Kasiboan = [
+        {
+            title:"Kasiboan - 友善旅人",
+            image:"./images/LanyuKasiboan/Kasiboan-友善旅人, 2021.jpg"
+        },
+        {
+            title:"Kasiboan - 多背一公斤垃圾",
+            image:"./images/LanyuKasiboan/Kasiboan-多背一公斤垃圾, 2021.jpg"
+        },
+        {
+            title:"Kasiboan - 堆垃圾的地方",
+            image:"./images/LanyuKasiboan/Kasiboan-堆垃圾的地方, 2021.jpg"
+        },
+        {
+            title:"Kasiboan - 蘭嶼是世界的縮影",
+            image:"./images/LanyuKasiboan/Kasiboan-蘭嶼是世界的縮影, 2021.jpg"
+        }
+    ];
+    const draw_data = document.getElementById('draw');
+    Kasiboan.forEach((post) => {
+    draw_data.innerHTML += `
+    <div class="col s12 m6">
+        <div class="card">
+            <div class="card-image">
+                <img src="${post.image}" class="materialboxed" data-caption="${post.title}">
+                <span  class="card-title"><h6><b class="cyan-text text-accent-1">&nbsp;${post.title}&nbsp;</b></h6></span>
+            </div>
+        </div>
+    </div>
+    `;
     });
-});
+};
