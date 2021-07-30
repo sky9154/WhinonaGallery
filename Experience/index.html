@@ -17,21 +17,22 @@
     <!--Include Materialize CSS-->
     <link type="text/css" rel="stylesheet" href="../css/materialize.min.css">
     <link type="text/css" rel="stylesheet" href="https://unpkg.com/boxicons@2.0.8/css/boxicons.min.css">
+    <script type="text/javascript" src="./index.js"></script>
 </head>
 
-<body class="element">
-<header id="home" class="navbar-fixed">
-    <nav class="backdrop-blur">
-        <div class="container">
-            <a href="index.html" class="brand-logo">
-                <img src="../images/logo.webp" class="responsive-img">
-            </a>
-            <a href="#" class="right sidenav-trigger show-on-medium-and-up blue-grey-text text-lighten-1" data-target="slide-out">
-                <i class='bx bx-menu menu'></i>
-            </a>
-        </div>
-    </nav>
-</header>
+<body class="element"  onload="draw();">
+    <header id="home" class="navbar-fixed">
+        <nav class="backdrop-blur">
+            <div class="container">
+                <a href="index.html" class="brand-logo">
+                    <img src="../images/logo.webp" class="responsive-img">
+                </a>
+                <a href="#" class="right sidenav-trigger show-on-medium-and-up blue-grey-text text-lighten-1" data-target="slide-out">
+                    <i class='bx bx-menu menu'></i>
+                </a>
+            </div>
+        </nav>
+    </header>
 
     <ul id="slide-out" class="sidenav">
         <li id="side-nav-logo"><img src="../images/logo.webp"></li>
@@ -42,23 +43,20 @@
         <li><div class="divider"></div></li>
     </ul>
 
-    <div class="container">
-        <h1 class="title center-align">
+    <div class="container center-align">
+        <h1 class="title">
             <span class="text-wrapper">
-              <span class="letters"><span class="center-align">LanyuKasiboan</span></span>
+              <span class="letters"><span>LanyuKasiboan</span></span>
               <span class="line"></span>
             </span>
-          </h1>
-        <div class="row ">
-            <div class="col s12 Lanyu">
-                <img src="./images/LanyuKasiboan/Kasiboan-友善旅人, 2021.jpg" class="col m6 s12">
-            </div>
+        </h1>
+        <div class="row" id="draw">
+            <!-- draw -->
         </div>
     </div>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="../js/materialize.min.js"></script>
-<script type="text/javascript" src="./index.js"></script>
+<script type="text/javascript" src="./Initialization.js"></script>
 </body>
 </html>

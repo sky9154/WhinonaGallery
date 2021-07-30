@@ -90,6 +90,7 @@ ul.sidenav .subheader {
     padding: 6px 0;
     max-height: 64px;
 }
-
-/* .Lanyu img{
-} */
+.card-title b{
+    background-color: rgba(0, 0, 0, .6);
+    font-size: 20px;
+}
