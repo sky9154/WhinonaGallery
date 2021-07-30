@@ -5,6 +5,7 @@ $(document).ready(function () {
         draggable: true,
         preventScrolling: false
     });
+    draw();
     // Init Materialboxed
     $('.materialboxed').materialbox();
 });
