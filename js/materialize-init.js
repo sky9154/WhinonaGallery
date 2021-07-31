@@ -8,6 +8,7 @@ $(document).ready(function () {
     // Init Sidenav
     $('.sidenav').sidenav({
         edge: 'right',
+        draggable: true,
         preventScrolling: false
     });
 });
