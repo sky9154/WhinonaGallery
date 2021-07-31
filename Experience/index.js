@@ -18,11 +18,12 @@ function draw(){
             image:"./images/LanyuKasiboan/Kasiboan-蘭嶼是世界的縮影, 2021.jpg"
         }
     ];
-    const draw_data = document.getElementById('draw');
+    const i =0;
+    const lanyu = document.getElementById('lanyu');
     Kasiboan.forEach((post) => {
-    draw_data.innerHTML += `
+        lanyu.innerHTML += `
     <div class="col s12 m6">
-        <div class="card">
+        <div class="card animate__animated animate__zoomIn animate__fast">
             <div class="card-image">
                 <img src="${post.image}" class="materialboxed" data-caption="${post.title}">
                 <span  class="card-title"><h6><b class="cyan-text text-accent-1">&nbsp;${post.title}&nbsp;</b></h6></span>

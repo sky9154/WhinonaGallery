@@ -8,34 +8,6 @@ body{
     background-color: #e1f5fe ;
 }
 .element::-webkit-scrollbar { width: 0 !important }
-.title {
-    font-weight: 200;
-    font-size: 3.2em;
-  }
-  
-  .title .text-wrapper {
-    position: relative;
-    display: inline-block;
-    padding-top: 0.1em;
-    padding-right: 0.05em;
-    padding-bottom: 0.15em;
-  }
-  
-  .title .line {
-    opacity: 0;
-    position: absolute;
-    left: 0;
-    height: 2px;
-    width: 100%;
-    background-color: #fff;
-    transform-origin: 100% 100%;
-    bottom: 0;
-  }
-  
-  .title .letter {
-    display: inline-block;
-    line-height: 1em;
-  }
 
 /*Side Nav*/
 ul.sidenav {
@@ -93,4 +65,7 @@ ul.sidenav .subheader {
 .card-title b{
     background-color: rgba(0, 0, 0, .6);
     font-size: 20px;
+}
+.top{
+    border-top: 2px solid #d9d9d9;
 }
