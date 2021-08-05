@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Oswald','Noto Sans TC',sans-serif;
+}
+body{
+    background-color: #e1f5fe ;
+}
+.element::-webkit-scrollbar { width: 0 !important }
+
+/*Side Nav*/
+ul.sidenav {
+    width: 200px;
+}
+
+ul.sidenav li:last-of-type,
+ul.sidenav li:last-of-type a {
+    max-height: 20px;
+    line-height: 20px;
+}
+
+ul.sidenav .divider {
+    margin: 15px 20px 28px 25px;
+    background-color: #686666;
+}
+
+ul.sidenav .subheader {
+    font-size: 12px;
+}
+
+#side-nav-icons-container {
+    display: flex;
+    padding: 0 32px;
+}
+
+#side-nav-icons-container h5 {
+    padding-right: .9rem;
+}
+
+#side-nav-logo {
+    height: 6%;
+}
+#side-nav-logo img {
+    height: 100%;
+    padding: 5px 20px;
+}
+.backdrop-blur {
+    backdrop-filter: blur(5px);
+    background-color: rgba(225, 245, 254,.7);
+    position: relative;
+    z-index: 2;
+    height: 64px;
+    box-shadow: none;
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+}
+.brand-logo img {
+    padding: 6px 0;
+    max-height: 50px;
+}
