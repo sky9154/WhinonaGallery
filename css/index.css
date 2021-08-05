@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 * {
     box-sizing: border-box;
-    font-family: 'Oswald','Noto Sans TC',sans-serif;
+    font-family: 'Oswald', 'Noto Sans TC', sans-serif;
 }
 
 
